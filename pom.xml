@@ -207,14 +207,14 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:jtrixirick/Udemy_Jenkins_Update.git</connection>
+    <developerConnection>scm:git:git@github.com:trixirick/Udemy_Jenkins_Update.git</developerConnection>
     <tag>HEAD</tag>
     <url>https://github.com/trixirick/Udemy_Jenkins_Update</url>
   </scm>
 
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>3.6.3</maven>
   </prerequisites>
 
 </project>
