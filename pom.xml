@@ -207,7 +207,7 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jtrixirick/Udemy_Jenkins_Update.git</connection>
+    <connection>scm:git:git@github.com:trixirick/Udemy_Jenkins_Update.git</connection>
     <developerConnection>scm:git:git@github.com:trixirick/Udemy_Jenkins_Update.git</developerConnection>
     <tag>HEAD</tag>
     <url>https://github.com/trixirick/Udemy_Jenkins_Update</url>
