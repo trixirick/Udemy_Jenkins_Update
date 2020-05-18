@@ -1,9 +1,14 @@
-pipeline {
-    agent any
+    pipeline {
+        agent any
+
+        tools {
+            maven 'localMaven'
+        }
+
     stages{
-        stages('build'){
-            steps  {
-                sh 'mvn clean package'
+            stage('Build'){
+                steps {
+                    sh 'mvn clean package'
                 }
                 post {
                     success {
@@ -14,4 +19,3 @@ pipeline {
             }
         }
     }
-}
